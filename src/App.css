@@ -2,14 +2,22 @@
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: #dadbd3;
+  background-color: rgb(51, 51, 51);
+  border-right: 1px solid #727272;
+  border-left: 1px solid #727272;
+  color: white;
 }
 
-.app_body{
-display: flex;
-background-color: #ededed;
-margin-top: -50px;
-height: 90vh;
-width: 90vw;
-box-shadow: -1pw 4px 20px -6px rgba(0,0,0,0.75);
+.app__body {
+  display: flex;
+  background-color: rgb(32, 32, 32);
+  border-right: 1px solid #4e4e4e;
+  border-left: 1px solid #4e4e4e;
+  border-top: 1px solid #4e4e4e;
+  border-bottom: 1px solid #4e4e4e;
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1pw 4px 20px -6px rgba(0, 0, 0, 0.75);
+  color: white;
 }

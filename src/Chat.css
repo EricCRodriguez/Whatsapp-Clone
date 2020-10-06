@@ -2,95 +2,108 @@
   display: flex;
   flex-direction: column;
   flex: 0.65;
+  font: white;
+  background-color: rgb(56, 55, 55);
+
 }
 
-.chat_header {
+.chat__header {
   padding: 20px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid rgb(112, 112, 112);
+
 
 }
 
-.chat_headerInfo {
+.chat___headerInfo {
   flex: 1;
   padding-left: 20px;
+  color: white;
+
 }
 
-.chat_headerInfo > h3 {
+.chat___headerInfo>h3 {
   margin-bottom: 3px;
   font-weight: 500;
-  color: black;
+  color: white;
 }
 
-.chat_headerInfo > p {
-  color: gray;
+.chat__headerInfo>p {
+  color: white;
 }
 
-.chat_body {
+.chat__body {
   flex: 1;
-  background-image: url(https://i.pinimg.com/736x/87/93/b7/8793b7f3009c87baf350de82a5f72423.jpg);
+  background-image: url(https://i.pinimg.com/originals/85/ec/df/85ecdf1c3611ecc9b7fa85282d9526e0.jpg);
   background-repeat: repeat;
   background-position: center;
   padding: 30px;
   overflow: scroll;
+  color: whitesmoke;
 
 }
 
-.chat_message {
+.chat__message {
   position: relative;
   font-size: 16px;
   padding: 10px;
   width: fit-content;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: rgb(56, 55, 55);
   margin-bottom: 30px;
 }
 
-.chat_reciever{
+.chat__reciever {
   margin-left: auto;
-  background-color: #dcf8c6;
+  background-color: rgb(90, 97, 104);
 }
 
-.chat_timestamp {
+.chat__timestamp {
   margin-left: 10px;
   font-size: xx-small;
 }
 
-.chat_name {
+.chat__name {
   position: absolute;
   top: -15px;
   font-weight: 800;
   font-size: xx-small;
   color: white;
+  background-color: rgb(56, 55, 55)
 }
 
-.chat_footer {
+.chat__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 62px;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid rgb(105, 105, 105);
+  background-color: rgb(56, 55, 55)
 }
 
-.chat_footer > form {
+.chat__footer>form {
   flex: 1;
   display: flex;
+  background-color: rgb(56, 55, 55)
 }
 
-.chat_footer > form > input {
+.chat__footer>form>input {
   flex: 1;
   outline-width: 0;
   border-radius: 30px;
   padding: 10px;
   border: none;
+  background-color: lightgray
 }
 
-.chat_footer > form > button {
+.chat__footer>form>button {
   display: none;
+  background-color: rgb(56, 55, 55)
 }
 
-.chat_footer > .MuiSvgIcon-root {
+.chat__footer>.MuiSvgIcon-root {
   padding: 10px;
-  color: gray;
+  color: whitesmoke;
+  background-color: rgb(56, 55, 55)
 }

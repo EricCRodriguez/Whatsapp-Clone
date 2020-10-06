@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     const pusher = new Pusher("23fdb4b017247665ff5e", {
-      cluster: "us2"
+      cluster: "us2",
     });
 
     const channel = pusher.subscribe("messages");
@@ -34,9 +34,9 @@ function App() {
 
   return (
     <div className="app">
-      <div className="app_body">
+      <div className="app__body">
         <Sidebar />
-        <Chat />
+        <Chat messages={messages} />
       </div>
     </div>
   );

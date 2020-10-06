@@ -5,10 +5,11 @@ import "./SidebarChat.css";
 function SidebarChat() {
   return (
     <div className="sidebarChat">
-      <Avatar />
+      <Avatar src="https://www.englishone.co.za/wp-content/uploads/2015/12/PEOPLE-HANGING-OUT.jpg" />
+
       <div className="sidebarChat__info">
-        <h2>Room Name</h2>
-        <p>This is the last messge </p>
+        <h2>Chat Room </h2>
+        <p>Add your friends and start Chatting! </p>
       </div>
     </div>
   );
